@@ -1,0 +1,61 @@
+body
+{
+	font-family:georgia;
+	font-size:20px;
+}
+.heading
+{
+	font-size:35px;
+	margin-left:20px;
+}
+.para
+{
+	margin-left:35px;
+}
+.col1
+{
+  margin-left:45px;
+  float: left;
+  width: 40%;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col2
+{
+  margin-top:25px;
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col3
+{
+  margin-top:25px;
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col4
+{
+  margin-top:25px;
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.row4::after {
+  content: "";
+  clear: both;
+  display: table;
+}

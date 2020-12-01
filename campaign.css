@@ -1,0 +1,28 @@
+.heading
+{
+	font-family: georgia;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+.column1 
+{
+  margin-top: 15px;
+  float: left;
+  width: 28%;
+  margin-left:45px;  
+}
+
+.row1::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+.disc
+{
+	font-family: georgia;
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+}
